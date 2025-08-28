@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Today's Weather </title>
+    <title>5-Day Forecast</title>
     <link id="themeStylesheet" rel="stylesheet" href="light.css">
 </head>
 <body>
     <header>
-        <h1> Wonderful Weather Widget </h1>
+        <h1>Wonderful Weather Widget</h1>
         <nav>
-            <a href="index.html"> Today </a>
-            <a href="forecast.html"> 5-Day Forecast </a>
-            <button id="switchThemeBtn"> Switch Theme </button>
+            <a href="index.html">Today</a>
+            <a href="forecast.html">5-Day Forecast</a>
+            <button id="switchThemeBtn">Switch Theme</button>
         </nav>
     </header>
 
     <main>
         <section class="search">
             <input type="text" id="cityInput" placeholder="Enter city name">
-            <button id="getWeatherBtn"> Get Weather </button>
+            <button id="getForecastBtn">Get Forecast</button>
         </section>
 
-        <section id="todayWeather" class="weather-card">
-            <!-- Weather data will appear here -->
+        <section id="forecastWeather" class="forecast-grid">
+            <!-- Forecast cards will be injected here -->
         </section>
     </main>
 
     <footer>
-        <p> Powered by OpenWeatherMap </p>
+        <p>Powered by OpenWeatherMap</p>
     </footer>
 
     <script src="weatherWidget.js"></script>

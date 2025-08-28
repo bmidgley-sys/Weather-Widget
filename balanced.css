@@ -1,0 +1,25 @@
+body {
+    background: #f0f4f8;
+    color: #333;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+header, footer {
+    background: #dfe6ed;
+    text-align: center;
+    padding: 1em;
+}
+.weather-card {
+    background: #ffffffcc;
+    border-radius: 12px;
+    padding: 1em;
+    margin: 1em auto;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1em;
+    padding: 1em;
+}
