@@ -3,11 +3,22 @@ body {
     color: #333;
     font-family: "Segoe UI", Tahoma, sans-serif;
 }
-header, footer {
+
+header {
     background: #dfe6ed;
     text-align: center;
     padding: 1em;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #dfe6ed;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+}
+
 .weather-card {
     background: #ffffffcc;
     border-radius: 12px;
@@ -17,6 +28,7 @@ header, footer {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
+
 .forecast-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));

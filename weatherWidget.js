@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY_HERE";
+const apiKey = "b6e6c6e31f0e276362c3d7d7d6326988";
 
 const themeStylesheet = document.getElementById("themeStylesheet");
 const switchThemeBtn = document.getElementById("switchThemeBtn");
